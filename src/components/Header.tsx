@@ -92,11 +92,7 @@ const Header = () => {
           >
             学ぶ
           </Link>
-          <Link
-            href="https://iki-programming-juku.notion.site/613d13e8d5a94e59a498aaedf5e44692?pvs=4"
-            target="_brank"
-            className="hover:underline"
-          >
+          <Link href="/" target="_brank" className="hover:underline">
             IT研修
           </Link>
           {pathname == "/" ? (
@@ -202,7 +198,7 @@ const Header = () => {
                         <p className="">トップ</p>
                       </Link>
                       <Link
-                        href="/"
+                        href="https://iki-programming-juku.notion.site/613d13e8d5a94e59a498aaedf5e44692?pvs=4"
                         className="link link-hover block text-base font-semibold text-slate-50 border-b-1 pb-2"
                         onClick={() => startAnimation()}
                       >
