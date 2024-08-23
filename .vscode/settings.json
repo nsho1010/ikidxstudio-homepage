@@ -1,0 +1,8 @@
+{
+  // インデント幅を4スペースから2スペースに変更
+  "editor.tabSize": 2,
+  // タブではなくスペースを使用する設定
+  "editor.insertSpaces": true,
+  // ファイルの内容に基づいてインデントを自動検出しないように設定
+  "editor.detectIndentation": false
+}

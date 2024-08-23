@@ -1,0 +1,1 @@
+{"apiFields":[{"idValue":"qBmd6Gr3O_","fieldId":"name","name":"名前","kind":"text","required":true},{"fieldId":"email","name":"メールアドレス","kind":"text","required":true},{"fieldId":"message","name":"お問い合わせ内容","kind":"textArea","required":true}],"customFields":[]}
