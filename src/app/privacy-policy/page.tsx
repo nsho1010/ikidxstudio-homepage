@@ -38,7 +38,7 @@ const PrivacyPolicyPage = () => {
           <h1 className="text-3xl font-bold mb-4">プライバシーポリシー</h1>
           <p className="mb-4">
             IKI DX
-            LAB（以下「当社」といいます）は、お客様の個人情報の適切な取り扱いを重要視しており、個人情報の保護に関する法律及び関連法令等を遵守するとともに、以下のプライバシーポリシーに従って、お客様の個人情報を安全かつ適切に取り扱うことを宣言いたします。
+            STUDIO（以下「当社」といいます）は、お客様の個人情報の適切な取り扱いを重要視しており、個人情報の保護に関する法律及び関連法令等を遵守するとともに、以下のプライバシーポリシーに従って、お客様の個人情報を安全かつ適切に取り扱うことを宣言いたします。
           </p>
           <h2 className="text-2xl font-bold mb-2">1. 個人情報の取得</h2>
           <p className="mb-4">
@@ -78,7 +78,7 @@ const PrivacyPolicyPage = () => {
             {/* <br />
             電話番号：03-1234-5678 */}
             <br />
-            メールアドレス：test@gmail.jp
+            メールアドレス：shohei.nagamura@gmail.jp
           </p>
         </div>
       </article>
