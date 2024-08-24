@@ -78,7 +78,7 @@ const PrivacyPolicyPage = () => {
             {/* <br />
             電話番号：03-1234-5678 */}
             <br />
-            メールアドレス：shohei.nagamura@gmail.jp
+            メールアドレス：shohei.nagamura@gmail.com
           </p>
         </div>
       </article>
