@@ -21,7 +21,7 @@ export const metadata = getSEOTags({
 
 const TermsOfServicePage = () => {
   return (
-    <main className="max-w-prose mx-auto space-y-8 gap-16 lg:gap-24 pt-16 lg:pt-24">
+    <main className="max-w-prose mx-auto space-y-8 px-8 py-16 gap-16 lg:gap-24 pt-16 lg:pt-24">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
