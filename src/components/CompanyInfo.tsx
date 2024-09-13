@@ -4,7 +4,7 @@ const companyInfoData = {
   location: "長崎県壱岐市(バーチャルオフィスとなります。)",
   established: "2024年8月",
   president: "永村 奨平",
-  business: "Webアプリ開発・DX人材教育・IT研修",
+  business: "Web制作・アプリ開発・DX人材教育・IT研修",
 };
 
 const CompanyInfo = () => {

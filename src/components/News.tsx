@@ -52,7 +52,7 @@ const News = async () => {
           ) : (
             <div className="sm:col-span-2 lg:col-span-3 flex justify-center items-center w-full lg:px-52">
               <div className="bg-cyan-600 h-48 flex justify-center items-center w-full p-4 ">
-                <p className="text-xl font-semibold text-center text-white">
+                <p className="text-4xl font-semibold text-center text-white">
                   Coming soon...
                 </p>
               </div>

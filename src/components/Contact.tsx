@@ -7,6 +7,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { submitContactForm, ContactFormState } from "@/actions/contact";
+import { Jersey_10 } from "next/font/google";
+import { profile } from "console";
 
 export default function Component() {
   const initialState: ContactFormState = {
