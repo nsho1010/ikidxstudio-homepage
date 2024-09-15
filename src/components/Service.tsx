@@ -15,7 +15,7 @@ const serviceData = [
       "初心者から上級者まで対応するプログラミング教育プログラム。地域の個人を対象に、実践的なITスキルを身につける機会を提供します。",
     image:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    url: "https://iki-programming-juku.notion.site/613d13e8d5a94e59a498aaedf5e44692?pvs=4",
+    url: "/coming-soon",
   },
   {
     name: "企業団体・教育機関向けIT研修",
@@ -23,7 +23,7 @@ const serviceData = [
       "地域の企業や団体・教育機関向けにカスタマイズされたIT研修プログラム。社員のITリテラシーを向上させ、デジタル化による業務効率の向上を支援します。",
     image:
       "https://images.unsplash.com/photo-1614064548237-096f735f344f?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    url: "#",
+    url: "/coming-soon",
   },
   // {
   //   name: "地域コミュニティIT導入支援",
