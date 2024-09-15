@@ -15,7 +15,7 @@ const serviceData = [
       "初心者から上級者まで対応するプログラミング教育プログラム。地域の個人を対象に、実践的なITスキルを身につける機会を提供します。",
     image:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    url: "https://iki-programming-juku.notion.site/613d13e8d5a94e59a498aaedf5e44692?pvs=4",
+    url: "/coming-soon",
   },
   {
     name: "企業団体・教育機関向けIT研修",
@@ -23,7 +23,7 @@ const serviceData = [
       "地域の企業や団体・教育機関向けにカスタマイズされたIT研修プログラム。社員のITリテラシーを向上させ、デジタル化による業務効率の向上を支援します。",
     image:
       "https://images.unsplash.com/photo-1614064548237-096f735f344f?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    url: "#",
+    url: "/coming-soon",
   },
   // {
   //   name: "地域コミュニティIT導入支援",
@@ -45,7 +45,7 @@ const serviceData = [
 const Service = () => {
   return (
     <section id="service">
-      <div className="flex flex-col items-center justify-center text-center mx-auto gap-4 lg:gap-8 p-8">
+      <div className="flex flex-col items-center justify-center text-center mx-auto gap-4 lg:gap-8 p-8 lg:px-20">
         <div className="space-y-4 mx-auto">
           <h2 className="text-3xl font-bold tracking-tighter  decoration-1 underline-offset-8 border-b-2 border-cyan-600">
             Service
@@ -54,7 +54,7 @@ const Service = () => {
             サービス紹介
           </p>
         </div>
-        <div className="mx-auto grid items-start gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
+        <div className="mx-auto grid items-start gap-4 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
           {serviceData.map((service) => (
             <Card
               key={service.name}

@@ -29,7 +29,7 @@ const Hero = () => {
       className="flex flex-col-reverse lg:flex-row items-center justify-center sm:gap-4 md:gap-12 lg:gap-24 pt-16 lg:pt-32 lg:px-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.1, delay: 0 }}
+      transition={{ duration: 0.6, delay: 0.3 }}
     >
       <div className="flex flex-col gap-4 lg:gap-8 items-center justify-center text-center lg:text-left lg:items-start p-8 md:p-0">
         <h1 className="font-extrabold text-4xl md:text-5xl lg:text-6xl tracking-tight text-balance md:-mb-4">
@@ -59,9 +59,9 @@ const Hero = () => {
         </Scroll>
       </div>
       <motion.div
-        initial={{ opacity: 0, x: -100 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
         className="w-full"
       >
         <Image
