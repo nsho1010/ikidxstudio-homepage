@@ -136,7 +136,12 @@ const Header = () => {
             </Scroll>
           ) : (
             <Link href="/#contact" className="hover:underline">
-              お問い合わせ
+              <Button
+                size="lg"
+                className="bg-cyan-600 text-white hover:bg-cyan-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg"
+              >
+                お問い合わせ
+              </Button>
             </Link>
           )}
         </div>
