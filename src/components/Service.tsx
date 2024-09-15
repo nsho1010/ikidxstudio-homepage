@@ -45,7 +45,7 @@ const serviceData = [
 const Service = () => {
   return (
     <section id="service">
-      <div className="flex flex-col items-center justify-center text-center mx-auto gap-4 lg:gap-8 p-8">
+      <div className="flex flex-col items-center justify-center text-center mx-auto gap-4 lg:gap-8 p-8 lg:px-20">
         <div className="space-y-4 mx-auto">
           <h2 className="text-3xl font-bold tracking-tighter  decoration-1 underline-offset-8 border-b-2 border-cyan-600">
             Service
@@ -54,7 +54,7 @@ const Service = () => {
             サービス紹介
           </p>
         </div>
-        <div className="mx-auto grid items-start gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
+        <div className="mx-auto grid items-start gap-4 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
           {serviceData.map((service) => (
             <Card
               key={service.name}
