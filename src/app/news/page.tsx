@@ -47,7 +47,7 @@ const NewsListPage = async ({
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1 className="text-4xl font-bold tracking-tight underline decoration-cyan-600 decoration-1 underline-offset-8 pt-10 ">
+      <h1 className="text-4xl font-bold tracking-tight underline decoration-cyan-600 decoration-1 underline-offset-8 pt-10">
         お知らせ
       </h1>
       <section className="w-full">
