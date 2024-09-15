@@ -3,10 +3,16 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 const NotFound = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 lg:gap-8 p-8 h-screen text-gray-900">
+    <motion.div
+      className="flex flex-col items-center justify-center gap-4 lg:gap-8 p-8 h-screen text-gray-900"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.6, delay: 0.3 }}
+    >
       <h2 className="lg:text-8xl md:text-7xl sm:text-5xl text-4xl font-bold">
         404
       </h2>
@@ -23,7 +29,7 @@ const NotFound = () => {
           </Button>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
