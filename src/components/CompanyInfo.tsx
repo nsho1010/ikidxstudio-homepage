@@ -1,7 +1,7 @@
 // import Image from "next/image";
 const companyInfoData = {
   name: "IKI DX STUDIO",
-  location: "長崎県壱岐市(バーチャルオフィスとなります。)",
+  location: "長崎県壱岐市",
   established: "2024年8月",
   president: "永村 奨平",
   business: "Web制作・アプリ開発・DX人材教育・IT研修",
@@ -32,10 +32,10 @@ const CompanyInfo = () => {
               <dt className="font-medium">所在地</dt>
               <dd className="mb-4">{companyInfoData.location}</dd>
             </div>
-            <div className="border-b-1">
+            {/* <div className="border-b-1">
               <dt className="font-medium">設立</dt>
               <dd className="mb-4">{companyInfoData.established}</dd>
-            </div>
+            </div> */}
             <div className="border-b-1">
               <dt className="font-medium">代表者</dt>
               <dd className="mb-4">{companyInfoData.president}</dd>

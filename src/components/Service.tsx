@@ -60,7 +60,7 @@ const Service = () => {
               key={service.name}
               className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg border-cyan-600"
             >
-              <Link href={service.url} target="_brank">
+              <Link href={service.url} /*target="_brank"*/>
                 <CardHeader className="flex justify-center items-center">
                   <Image
                     alt="Product Image"
