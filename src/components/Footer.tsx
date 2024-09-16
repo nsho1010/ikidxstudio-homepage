@@ -48,14 +48,14 @@ const Footer = () => {
                 )}
 
                 <Link
-                  href="https://iki-programming-juku.notion.site/613d13e8d5a94e59a498aaedf5e44692?pvs=4"
+                  href="/coming-soon"
                   target="_brank"
                   className="hover:underline"
                 >
                   学ぶ
                 </Link>
                 <Link
-                  href="https://iki-programming-juku.notion.site/613d13e8d5a94e59a498aaedf5e44692?pvs=4"
+                  href="/coming-soon"
                   target="_brank"
                   className="hover:underline"
                 >
