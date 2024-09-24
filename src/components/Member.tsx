@@ -2,11 +2,10 @@ import Image from "next/image";
 
 const members = [
   {
-    name: "永村奨平",
+    name: "ナガムラ ショウヘイ",
     // role: "代表",
-    description:
-      "ベンチャー・スタートアップ企業でWebエンジニアとして従事。フロントエンド、バッグエンドを担当。",
-    image: "/myprofile.jpg",
+    description: "ベンチャー・スタートアップ企業でWebエンジニアとして従事。",
+    image: "/myprofileimage.PNG",
   },
 ];
 
@@ -34,10 +33,10 @@ const Member = () => {
             >
               <Image
                 alt={member.name}
-                className="aspect-square w-32 rounded-full object-cover"
+                className="aspect-square rounded-full object-cover"
                 src={member.image}
-                width={100}
-                height={100}
+                width={200}
+                height={200}
               />
               <div className="text-center">
                 <h3 className="text-lg font-semibold">{member.name}</h3>
